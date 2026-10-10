@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 仮想環境
+.venv/
+venv/
+env/
+ENV/
+
+# エディタ・OS
+.idea/
+.vscode/
+.DS_Store
+
+# 機密情報・出力物
+.env
+.env.*
+.streamlit/secrets.toml
+outputs/
+
+# CSVは原則コミットしない(ただしサンプルは例外)
+*.csv
+!sample_reviews.csv
